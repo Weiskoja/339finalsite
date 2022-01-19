@@ -1,0 +1,23 @@
+:root{
+    /* Official umich hex codes from brand id: */
+    /* https://brand.umich.edu/design-resources/colors/ */
+
+  --michBl: #00274C;
+  --michMz: #FFCB05; 
+
+    /*umich suggested fonts from brand id: */
+    /* https://brand.umich.edu/design-resources/typography/ */
+  --michFntFam: "Atkinson Hyperlegible","Monteserrat","Arials";
+}
+
+li{
+    font-family: var(--michFntFam);
+    background-color: #FFFFFF ;
+    color: var(--michBl);
+
+}
+p{
+    font-family:  var(--michFntFam);
+    background-color: #FFFFFF ;
+    color: var(--michBl);
+}
