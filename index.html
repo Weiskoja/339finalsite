@@ -11,26 +11,51 @@
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap">
 
     <!-- linking site css-->
-    <link rel= "stylesheet" href = "css/managerStyle.css" >
+    <link rel= "stylesheet" href = "/css/339FinalStyle.css" >
     <title>Home</title>
 </head>
 <main>
-    <header>
-        <nav>
-            <ul>
-                <li class = 'active' ><a href = "main.html">Home</a></li>
-                <li><a>about</a></li>
-                <li><a>apply</a></li>
-                <li><a>gallery</a></li>
+    <header class = "flex_main_container">
+        <nav id = "nav_container">
+            <ul id = "nav_list">
+                <li class = 'active nav_item' ><a href = "index.html">Home</a></li>
+                <li class = "nav_item"><a href = "about.html">about</a></li>
+                <li class = "nav_item"><a href = "FootballGallery.html">Football</a></li>
+                <li class = "nav_item"><a href = "Gallery.html">Gallery</a></li>
             </ul>
         </nav>
     </header>
-    <body>
-        <p>what we do</p>
-        <p>why the program</p>
+    <body class = "flex_main_container" >
+        <div>
+            
+        </div>
+        <div class = "flex_content">
+            <div id = 'mp1'>
+                <p> Football has been a mainstay in my life for almost 13 years now.
+                    <br>Want to see some pictures?<a href = "FootballGallery.html" class = "wipe">football</a>
+                </p>
+            </div>
+            <div id = 'mp2'>
+                <p > Although I spend a majority of my time thinkning about America's game,<br> I promise football isn't the only thing I do.
+                    <br> <a href = "Gallery.html" class = "wipe">Want proof?</a>
+                </p>
+            </div>
+            <div id = 'mp3'>
+                <p > I'm always looking for suggestions to improve my skills, so feel free to send a message my way.
+                    <br> <a href = "about.html" class = "wipe">Contact me</a>
+                </p>
+            </div>
+        </div>  
     </body>
-    <footer>
-
+    <footer class = "flex_main_container" id = footer>
+       <!---
+        <ul id = "nav_list">
+            <li class = 'active nav_item' ><a href = "index.html">Home</a></li>
+            <li class = "nav_item"><a>about</a></li>
+            <li class = "nav_item"><a>Football</a></li>
+            <li class = "nav_item"><a>Gallery</a></li>
+        </ul>
+        -->
     </footer>
 </main>
 </html>

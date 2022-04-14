@@ -1,0 +1,164 @@
+
+
+/* flex skeletons*/
+.flex_main_container{
+    display: flex;
+    width: 100vw;
+    padding: 15px;
+
+    justify-content: center;
+    align-content: center;
+}
+
+/* header, footer, body styling*/
+#footer{
+    display:inline;
+    position: fixed;
+    bottom: 0;
+
+    min-width: 100vw;
+    min-height: 5vh;
+    background-image: url("/images/bkgrnd/maroonBKG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* nav css*/
+
+#nav_container{
+    display: flex;
+    position: static;
+    align-self: center;
+
+    width: 90%;
+    min-width: 40vw;
+    min-height: 5vh;
+    
+    /* parallax background*/
+    background-image: url("/images/bkgrnd/maroonBKG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*styling*/
+    z-index: 0;
+    border: solid .5px #000000;
+    box-shadow: #000000 100px,1 00px;
+
+    /* content styling*/
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+
+}
+
+#nav_list{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 100%;
+
+    min-height: 100%;
+
+
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+/*flex skeletons*/
+body{
+    z-index: 0;
+    display: flex;
+
+    min-height: 100vh;
+    background-image: url("/images/bkgrnd/woodBKG.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex_content{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100vw;
+
+    min-height: 50vh;
+    min-width: 50vw;
+    
+}
+
+.flex_content p{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: center;
+    min-height: 100%;
+    width: 25vw;
+
+    /* styling*/
+
+    /* text styling */
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+#mp1{
+    /* styling */
+    background-image: url("/images/bkgrnd/maroonBKG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#mp2{
+    background-image: url("/images/bkgrnd/maroonBKG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#mp3{
+    background-image: url("/images/bkgrnd/maroonBKG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#mp1:hover{
+    background-image: url("/images/bkgrnd/dave-adamson-0Z4ghx_P3q4-unsplash.jpg");
+    
+}
+#mp2:hover{
+    background-image: url("/images/Non-fball/IMG_5510.jpeg");
+}
+#mp3:hover{
+    background-image: url("/images/bkgrnd/office-phone-1-1543847.jpg");
+}
+
+
+
+
+/* image grid*/
+
+.imageGrid{
+    display: grid;
+    position: static;
+    top:50%;
+    left:50%;
+
+
+    width: 100%;
+
+    margin: 15px;
+    width: 65vw;
+    height: 65vh;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3, auto);
+
+}
+.imageGrid img{
+    width: 100%;
+    object-fit: contain;
+}
